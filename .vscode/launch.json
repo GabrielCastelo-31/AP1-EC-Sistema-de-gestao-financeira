@@ -1,26 +1,29 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "c:\\Users\\gabfl\\OneDrive\\Documents\\GitHub\\AP1-EC-Sistema-de-gestao-financeira",
-      "environment": [],
-      "program": "c:\\Users\\gabfl\\OneDrive\\Documents\\GitHub\\AP1-EC-Sistema-de-gestao-financeira\\build\\Debug\\outDebug",
-      "internalConsoleOptions": "openOnSessionStart",
-      "MIMode": "gdb",
-      "miDebuggerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\gdb.exe",
-      "externalConsole": false,
-      "setupCommands": [
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
         {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
+            "name": "g++.exe - Criar e depurar o arquivo ativo",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "C:/msys64/mingw64/bin",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Habilitar a reformatação automática para gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++.exe arquivo de build ativo ver(2)"
         }
-      ]
-    }
-  ]
+    ]
 }
